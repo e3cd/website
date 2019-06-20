@@ -2,7 +2,10 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Header from "./Header/Header";
 import Menu from "./Menu/Menu";
-import Content from "./Content/Content";
+import Resume from "./Main/Resume";
+import Projects from "./Main/Projects";
+import Skills from "./Main/Skills";
+import About from "./Main/About";
 import Footer from "./Footer/Footer";
 
 import "./App.css";
@@ -10,16 +13,15 @@ import "./App.css";
 const App = () => {
   return (
     <BrowserRouter>
-      <Header />
-      <Menu />
       <div className="App__container">
+        <Header />
+        <Menu />
         <Switch>
-          <Route path="/resume" exact component={resume} />
-          <Route path="/projects" exact component={projects} />
-          <Route path="/skills/" exact component={skills} />
-          <Route path="/about" exact component={about} />
+          <Route path="/resume" exact component={Resume} />
+          <Route path="/projects" exact component={Projects} />
+          <Route path="/skills/" exact component={Skills} />
+          <Route path="/about" exact component={About} />
         </Switch>
-        <Content />
         <Footer />
       </div>
     </BrowserRouter>

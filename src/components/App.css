@@ -23,18 +23,24 @@ body {
 }
 
 .App__container {
-  margin: 2rem;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  background: rgb(247, 247, 247);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+/*
+* Heading styling
+*/
+
+.App__heading {
+  margin: 2rem 0 2rem 0;
+}
+
 .App__header {
   display: block;
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -50,6 +56,62 @@ body {
   justify-content: center;
   align-items: center;
   animation: moveInRight 1.5s ease-out;
+}
+
+/*
+*  MENU STYLING
+*/
+
+.App__menu {
+  margin: 2rem 0 2rem 0;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.App__menu--list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  border-top: 1px solid #546e7a;
+  border-bottom: 1px solid #546e7a;
+}
+
+.App__menu--item {
+  font-weight: 700;
+  padding: 5px;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+  /* transition: all 0.5s ease-in; */
+}
+
+.App__menu--link:hover {
+  color: rgb(54, 150, 247);
+}
+
+.App__menu--link {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+/*
+* Projects
+*/
+
+.App__projects {
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /**

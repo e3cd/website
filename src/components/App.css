@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  padding: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 1.6;
+  background-size: cover;
+  background: rgb(247, 247, 247);
+  background-repeat: no-repeat;
+  overflow: "hidden";
+}
+
+.App__container {
+  margin: 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App__header {
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: moveInLeft 1.5s ease-out;
+}
+
+.App__subheader {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: moveInRight 1.5s ease-out;
+}
+
+/**
+KEYFRAMES
+*/
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

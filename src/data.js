@@ -16,11 +16,13 @@ export const projectsData = [
     link: "https://fake-slack.firebaseapp.com/",
     githubLink: "https://github.com/e3cd/cater_log",
     tech: [
-      "React",
+      "React - Hooks",
       "Context API",
       "Firebase",
       "CSS3",
-      "Material UI, CircleCI, Enzyme"
+      "Material UI",
+      "CircleCI",
+      "Enzyme"
     ]
   },
   {

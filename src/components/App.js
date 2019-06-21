@@ -13,8 +13,8 @@ import "./App.css";
 const App = () => {
   return (
     <BrowserRouter>
+      <Header />
       <div className="App__container">
-        <Header />
         <Menu />
         <Switch>
           <Route path="/resume" exact component={Resume} />

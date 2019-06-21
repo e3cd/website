@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap"); */
 
 *,
 *::before,
@@ -19,15 +19,14 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.6;
+  background: url(./../img/website-background.svg);
   background-size: cover;
-  background: rgb(247, 247, 247);
   background-repeat: no-repeat;
   overflow: "hidden";
   height: 100vh;
 }
 
 .App__container {
-  background: rgb(247, 247, 247);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,7 +38,10 @@ body {
 */
 
 .App__heading {
-  margin: 2rem 0 2rem 0;
+  margin: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .App__header {
@@ -47,9 +49,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 4rem;
   font-weight: 400;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   animation: moveInLeft 1.5s ease-out;
 }
 
@@ -58,9 +58,8 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 2rem;
   font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 2rem;
+
   animation: moveInRight 1.5s ease-out;
 }
 
@@ -69,7 +68,7 @@ body {
 */
 
 .App__menu {
-  margin: 2rem 0 2rem 0;
+  margin: 3.5rem 0 2rem 0;
   padding: 5px;
   display: flex;
   justify-content: center;

@@ -14,15 +14,19 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header />
+
       <div className="App__container">
-        <Menu />
-        <Switch>
-          <Route path="/resume" exact component={Resume} />
-          <Route path="/projects" exact component={Projects} />
-          <Route path="/skills" exact component={Skills} />
-          <Route path="/about" exact component={About} />
-        </Switch>
         <Footer />
+
+        <div className="App__content">
+          <Menu />
+          <Switch>
+            <Route path="/resume" exact component={Resume} />
+            <Route path="/projects" exact component={Projects} />
+            <Route path="/skills" exact component={Skills} />
+            <Route path="/about" exact component={About} />
+          </Switch>
+        </div>
       </div>
     </BrowserRouter>
   );

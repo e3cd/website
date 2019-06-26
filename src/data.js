@@ -42,7 +42,7 @@ export const projectsData = [
     id: 3,
     name: "React NBA",
     description:
-      "A React application which uses the NBA API to display statistics of the teams and players for the 2018-2019 season.",
+      "A React application which uses the NBA API to display the 2018-2019 season stats for teams and players.",
     link: "http://reactnba-app.s3-website-ap-southeast-2.amazonaws.com/",
     githubLink: "https://github.com/e3cd/nba2019-react",
     tech: ["React", "Redux", "Axios", "CSS3"],

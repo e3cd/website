@@ -17,7 +17,7 @@ const style = {
   }
 };
 
-function ProjectImage({ project }) {
+function ProjectImage({ project, modalData }) {
   const [showModal, setShowModal] = useState(false);
 
   function toggleModal() {
@@ -28,7 +28,7 @@ function ProjectImage({ project }) {
     Modal.setAppElement("body");
   }, []);
 
-  console.log(project);
+  // console.log(project);
 
   return (
     <section>
@@ -49,9 +49,9 @@ function ProjectImage({ project }) {
         onRequestClose={toggleModal}
         contentLabel="Project Modal"
         style={style}
-        closeTimeoutMS={1000}
+        closeTimeoutMS={500}
       >
-        <ProjectModal project={project} toggleModal={toggleModal} />
+        <ProjectModal project={modalData} toggleModal={toggleModal} />
       </Modal>
     </section>
   );

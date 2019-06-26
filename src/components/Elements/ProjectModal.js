@@ -2,7 +2,6 @@ import React from "react";
 
 function ProjectModal({ toggleModal, project }) {
   console.log(project);
-
   return (
     <div className="project__modal--content">
       <div className="project__modal--left">

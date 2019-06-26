@@ -7,6 +7,7 @@ import Projects from "./Main/Projects";
 import Skills from "./Main/Skills";
 import About from "./Main/About";
 import Footer from "./Footer/Index";
+import ProjectModal from "./Elements/ProjectModal";
 
 import "./App.css";
 
@@ -23,6 +24,7 @@ const App = () => {
           <Switch>
             <Route path="/resume" exact component={Resume} />
             <Route path="/projects" exact component={Projects} />
+
             <Route path="/skills" exact component={Skills} />
             <Route path="/about" exact component={About} />
           </Switch>

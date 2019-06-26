@@ -6,7 +6,15 @@ export const projectsData = [
       "CaterLog is a two-sided marketplace where caterers can sign up and list their catering menus, whilst customers looking for caterers can sign up and view menu options from caterers. ",
     link: "http://myspamtool.com.s3-website-ap-southeast-2.amazonaws.com/",
     githubLink: "https://github.com/e3cd/cater_log",
-    tech: ["Ruby", "Ruby on Rails", "HTML", "CSS3", "Bootstrap"],
+    tech: [
+      "MongoDB",
+      "Express",
+      "React",
+      "NodeJS",
+      "Material-UI",
+      "Redux",
+      "Enzyme"
+    ],
     img: { preview: "", gif: "" }
   },
   {
@@ -27,12 +35,12 @@ export const projectsData = [
     ],
     img: {
       preview: require("./img/fakeslack-min.png"),
-      gif: "./img/fakeslack.gif"
+      gif: require("./img/fakeslack.gif")
     }
   },
   {
     id: 3,
-    name: "React-NBA",
+    name: "React NBA",
     description:
       "A React application which uses the NBA API to display statistics of the teams and players for the 2018-2019 season.",
     link: "http://reactnba-app.s3-website-ap-southeast-2.amazonaws.com/",
@@ -40,7 +48,7 @@ export const projectsData = [
     tech: ["React", "Redux", "Axios", "CSS3"],
     img: {
       preview: require("./img/react-nba-min.png"),
-      gif: "./img/react-nba.gif"
+      gif: require("./img/react-nba.gif")
     }
   },
   {
@@ -53,7 +61,7 @@ export const projectsData = [
     tech: ["Ruby", "Ruby on Rails", "HTML", "CSS", "Bootstrap"],
     img: {
       preview: require("./img/caterlog-min.png"),
-      gif: "./img/Caterlog-min.png"
+      gif: require("./img/caterlog-min.png")
     }
   },
   {

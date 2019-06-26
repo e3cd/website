@@ -14,19 +14,22 @@ export default function Projects() {
     slidesToShow: 1,
     slidesToScroll: 1,
     accessibility: true,
-    centerMode: true
+
+    autoplay: true,
+    autoplaySpeed: 4000,
+    pauseOnHover: true,
+    lazyLoad: true
   };
+
+  console.log(projectsData);
+
   return (
-    <div className="projects">
-      <Slider {...settings} className="project__slider">
-        {projectsData.map((project, i) => {
-          return (
-            <div className="project__showcase">
-              <ProjectImage data={project} key={i} />
-            </div>
-          );
-        })}
-      </Slider>
-    </div>
+    <Slider {...settings} className="project__slider">
+      {projectsData.map((project, i) => (
+        <div>
+          <ProjectImage project={project} key={i} />
+        </div>
+      ))}
+    </Slider>
   );
 }

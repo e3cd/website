@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { projectsData } from "./../../data.js";
-import ProjectImage from "./../Elements/ProjectImage";
+import ProjectImage from "../Showcase/ProjectImage";
 
 export default function Projects() {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -18,7 +18,7 @@ export default function Projects() {
     autoplay: true,
     autoplaySpeed: 4000,
     pauseOnHover: true,
-    lazyLoad: true,
+    // lazyLoad: true,
     afterChange: current => setActiveSlide(current)
   };
 

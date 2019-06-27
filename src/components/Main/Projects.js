@@ -18,7 +18,6 @@ export default function Projects() {
     autoplay: true,
     autoplaySpeed: 4000,
     pauseOnHover: true,
-    // lazyLoad: true,
     afterChange: current => setActiveSlide(current)
   };
 

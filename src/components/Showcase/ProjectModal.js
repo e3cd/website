@@ -51,27 +51,6 @@ function ProjectModal({ toggleModal, project }) {
         </div>
       </div>
     </div>
-
-    // <div>
-    //   <img
-    //     src={data.img.preview}
-    //     alt={data.name}
-    //     className="project__modal--img"
-    //   />
-
-    //   <button onClick={toggleModal} className="project__modal--close">
-    //     Close
-    //   </button>
-
-    //   <h3 className="project__modal--heading">{data.name}</h3>
-
-    //   <p className="project__modal--text">{data.description}</p>
-    //   <p className="project__modal--labels">{data.tech.join(", ")}</p>
-    //   <div>
-    //     <a href={data.link}>Live</a>
-    //     <a href={data.githubLink}>Source</a>
-    //   </div>
-    // </div>
   );
 }
 

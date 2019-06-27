@@ -18,7 +18,7 @@ export const projectsData = [
       "Redux",
       "Enzyme"
     ],
-    img: { preview: "", gif: "" }
+    img: { preview: require("./img/cms.png"), gif: require("./img/cms.png") }
   },
   {
     id: 2,
@@ -64,7 +64,7 @@ export const projectsData = [
     tech: ["Ruby", "Ruby on Rails", "HTML", "CSS", "Bootstrap"],
     img: {
       preview: require("./img/caterlog-min.png"),
-      gif: require("./img/caterlog-min.png")
+      gif: require("./img/Caterlog.gif")
     }
   },
   {

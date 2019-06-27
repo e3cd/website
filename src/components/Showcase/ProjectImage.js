@@ -6,7 +6,7 @@ const style = {
   content: {
     position: "absolute",
     padding: "0px",
-    height: "75vh",
+    height: "60vh",
     width: "80%",
     top: "50%",
     left: "50%",

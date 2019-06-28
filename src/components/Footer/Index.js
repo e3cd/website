@@ -1,10 +1,13 @@
 import React from "react";
+import resume from "./../../resume.pdf";
 
 export default function Footer() {
   return (
     <div className="App__footer">
       <div className="App__footer--icon">
-        <i class="far fa-file-alt" />
+        <a href={resume} target="_blank" rel="noopener noreferrer">
+          <i class="far fa-file-alt" />
+        </a>
       </div>
       <div className="App__footer--icon">
         <a

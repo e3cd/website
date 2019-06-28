@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router";
+import resume from "./../../resume.pdf";
 
 function Menu({ location }) {
   return (
@@ -51,13 +52,16 @@ function Menu({ location }) {
             Skills
           </li>
         </Link>
-        <Link
-          to="/resume"
-          style={{ textDecoration: "none" }}
-          className="App__menu--item"
-        >
-          <li className="App__menu--link">Resume</li>
-        </Link>
+        <div style={{ textDecoration: "none" }} className="App__menu--item">
+          <a
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <li className="App__menu--link">Resume</li>
+          </a>
+        </div>
       </ul>
     </nav>
   );

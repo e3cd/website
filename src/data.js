@@ -18,7 +18,7 @@ export const projectsData = [
       "Redux",
       "Enzyme"
     ],
-    img: { preview: require("./img/cms.png"), gif: require("./img/cms.png") }
+    img: { preview: require("./img/cms.png"), gif: require("./img/cms.gif") }
   },
   {
     id: 2,

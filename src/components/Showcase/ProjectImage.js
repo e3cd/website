@@ -6,11 +6,12 @@ const style = {
   content: {
     position: "absolute",
     padding: "0px",
-    height: "60vh",
+    height: "75vh",
     width: "80%",
     top: "50%",
     left: "50%",
-    transform: "translate(-50%, -50%)"
+    transform: "translate(-50%, -50%)",
+    overflow: "auto"
   },
   overlay: {
     backgroundColor: "rgba(0,0,0, 0.8)"

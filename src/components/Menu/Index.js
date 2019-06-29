@@ -8,21 +8,6 @@ function Menu({ location }) {
     <nav className="App__menu">
       <ul className="App__menu--list">
         <Link
-          to="/about"
-          style={{ textDecoration: "none" }}
-          className="App__menu--item"
-        >
-          <li
-            className={
-              location.pathname.toLowerCase().includes("/about")
-                ? "App__menu--current"
-                : "App__menu--link"
-            }
-          >
-            About
-          </li>
-        </Link>
-        <Link
           to="/projects"
           style={{ textDecoration: "none" }}
           className="App__menu--item"

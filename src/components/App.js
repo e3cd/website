@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import Header from "./Header/Index";
 import Menu from "./Menu/Index";
 
@@ -12,7 +12,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Header />
         <div className="Menu__container">
@@ -22,15 +22,15 @@ const App = () => {
           <Footer />
           <div className="App__content">
             <Switch>
-              <Route path="/projects" exact component={Projects} />
+              <Route exact path="/" component={About} />
+              <Route path="/projects" component={Projects} />
 
-              <Route path="/skills" exact component={Skills} />
-              <Route path="/about" exact component={About} />
+              <Route path="/skills" component={Skills} />
             </Switch>
           </div>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

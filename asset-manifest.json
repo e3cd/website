@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a33ac3d6.chunk.css",
+    "main.js": "/static/js/main.fc1dbf18.chunk.js",
+    "main.js.map": "/static/js/main.fc1dbf18.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.abea82f9.chunk.css": "/static/css/2.abea82f9.chunk.css",
+    "static/js/2.3d1db217.chunk.js": "/static/js/2.3d1db217.chunk.js",
+    "static/js/2.3d1db217.chunk.js.map": "/static/js/2.3d1db217.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2e78b57c1ad31cf4a6d11e88738c1588.js": "/precache-manifest.2e78b57c1ad31cf4a6d11e88738c1588.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.abea82f9.chunk.css.map": "/static/css/2.abea82f9.chunk.css.map",
+    "static/css/main.a33ac3d6.chunk.css.map": "/static/css/main.a33ac3d6.chunk.css.map",
+    "static/media/Caterlog.gif": "/static/media/Caterlog.7361599d.gif",
+    "static/media/caterlog-min.png": "/static/media/caterlog-min.cc988f73.png",
+    "static/media/cms.gif": "/static/media/cms.1268d3b2.gif",
+    "static/media/cms.png": "/static/media/cms.6ab527a4.png",
+    "static/media/fakeslack-min.png": "/static/media/fakeslack-min.e05a4beb.png",
+    "static/media/fakeslack.gif": "/static/media/fakeslack.fd4daf84.gif",
+    "static/media/react-nba-min.png": "/static/media/react-nba-min.348bc7cf.png",
+    "static/media/react-nba.gif": "/static/media/react-nba.d51b0dec.gif",
+    "static/media/resume.pdf": "/static/media/resume.51e31930.pdf",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/App.css": "/static/media/website-background.9dbbc8f0.svg",
+    "static/media/website-screenshot.png": "/static/media/website-screenshot.aa6c0c9f.png"
+  }
+}

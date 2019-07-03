@@ -29,17 +29,16 @@ body {
 }
 
 .App {
-  display: flex;
-
-  flex-direction: column;
-  height: 100%;
-  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 5fr;
+  height: 100vh;
 }
 
 .App__container {
+  flex: 1;
   display: grid;
   grid-template-columns: [footer] 4rem [content] auto;
-  grid-template-rows: 25rem;
+  /* grid-template-rows: 25rem; */
   overflow: "hidden";
   height: 100%;
 }
@@ -62,7 +61,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 12.5vh;
+  /* height: 12.5vh; */
 }
 
 .App__header {
@@ -451,9 +450,36 @@ KEYFRAMES
 
 /******** MEDIA QUERIES ***********/
 
-@media only screen and (min-width: 81.25em) {
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 150%;
+  }
+
   .Menu__container {
     margin-top: 2rem;
+  }
+
+  .project__slider {
+    margin-left: 0;
+  }
+
+  .slick-slide img {
+    height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 100em) and (max-width: 112.5em) {
+  .Menu__container {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 56.25em) and (max-width: 100em) {
+  .App {
+    grid-template-rows: 1fr 2fr 7fr;
+  }
+  .Menu__container {
+    margin: 0;
   }
 }
 

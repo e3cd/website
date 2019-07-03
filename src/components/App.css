@@ -472,6 +472,10 @@ KEYFRAMES
   .Menu__container {
     margin-top: 3rem;
   }
+
+  .App__menu {
+    width: 75vw;
+  }
 }
 
 @media only screen and (min-width: 56.25em) and (max-width: 100em) {
